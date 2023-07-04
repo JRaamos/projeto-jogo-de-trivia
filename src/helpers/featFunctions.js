@@ -2,6 +2,7 @@ import md5 from 'crypto-js/md5';
 
 export const handleGravatar = (email) => {
   const hash = md5(email);
+  console.log(hash);
   return `https://www.gravatar.com/avatar/${hash}`;
 };
 

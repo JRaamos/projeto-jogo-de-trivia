@@ -23,8 +23,8 @@ class Header extends Component {
           </p>
         </div>
         <p
-          data-testid="header-score"
           className="score"
+          data-testid="header-score"
         >
           {` Pontos: ${score} `}
         </p>
